@@ -3,4 +3,12 @@ body {
     font-family: Arial, sans-serif;
     background: #f8f8f8;
   }
+
+:root {
+  --fuel-brand: #1e3354;
+}
+
+.nb-header, .nb-link, .nb-button, .nb-lang {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+}
   

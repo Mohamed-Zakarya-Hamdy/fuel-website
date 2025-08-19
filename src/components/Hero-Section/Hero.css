@@ -1,0 +1,254 @@
+/* HeroSection.css */
+
+.hero-container {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('../../../public/Rectangle 9633.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hero-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Left Section - Geometric Elements */
+.left-section {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.geometric-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.group-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 474.3981628417969px;
+    height: auto;
+    z-index: 3;
+}
+
+/* Rectangle 22 - TOP RIGHT position */
+.rectangle-22-top {
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    width: 90px;
+    height: auto;
+    z-index: 4;
+}
+
+/* Purple circle on TOP rectangle */
+.ellipse-5-top {
+    position: absolute;
+    top: -16%;
+    right: 0%;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #CF1EFF;
+    z-index: 5;
+}
+
+/* Rectangle 22 - BOTTOM LEFT position */
+.rectangle-22-bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 90px;
+    height: auto;
+    z-index: 4;
+}
+
+/* Purple circle on BOTTOM rectangle */
+.ellipse-5-bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 17%;
+  
+ 
+   
+    z-index: 5;
+}
+
+/* Right Section - Text Content */
+.right-section {
+    flex: 1;
+    text-align: right;
+    padding-right: 60px;
+    direction: rtl;
+}
+
+.main-text {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'IBM Plex Sans';
+}
+.amount-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.amount {
+    font-size: 150px;
+    font-weight: 700;
+    font-style: bold;
+    color: white;
+}
+
+.amount-icon {
+    width: 80px;
+    height: 80px;
+    filter: brightness(0) invert(1); /* Makes the icon white */
+}
+
+.cta-button {
+    background-color: #2F8359;
+    color: white;
+    padding: 10px 55px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 120%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(47, 131, 89, 0.3);
+    font-family: 'Arial', sans-serif;
+}
+
+.cta-button:hover {
+    background-color: #236B47;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(47, 131, 89, 0.4);
+}
+
+.cta-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(47, 131, 89, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content-wrapper {
+        padding: 0 60px;
+    }
+    
+    .geometric-container {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .group-image {
+        width: 300px;
+    }
+    
+    .main-text {
+        font-size: 3rem;
+    }
+    
+    .amount {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        gap: 60px;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .geometric-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .group-image {
+        width: 280px;
+    }
+
+    .right-section {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .main-text {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .amount {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-wrapper {
+        padding: 20px;
+    }
+
+    .main-text {
+        font-size: 2rem;
+    }
+
+    .amount {
+        font-size: 2.8rem;
+    }
+
+    .geometric-container {
+        width: 250px;
+        height: 250px;
+    }
+
+    .group-image {
+        width: 220px;
+    }
+    
+    .cta-button {
+        padding: 12px 28px;
+        font-size: 1rem;
+    }
+}
