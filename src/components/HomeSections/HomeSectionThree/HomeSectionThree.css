@@ -1,0 +1,82 @@
+
+.hs3-container {
+    padding: 64px 0;
+  }
+  
+  .hs3-inner {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+  }
+  
+  .hs3-heading {
+    font-family: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 1.2;
+    text-align: right;
+    margin-bottom: 24px;
+  }
+  
+  .hs3-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  
+  .hs3-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f4f4fc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hs3-media {
+    height: 300px;
+    background: #002426;
+  }
+  
+  .hs3-media--dark {
+    background: #002426;
+  }
+  
+  .hs3-media--image {
+    background: url('../../../../public/Rectangle\ 9643.png ') center/cover no-repeat;
+  }
+  
+  .hs3-content {
+    background: #f4f4fc;
+    padding: 20px 24px 24px;
+  }
+  
+  .hs3-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+    text-align: right;
+  }
+  
+  .hs3-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .hs3-arrow {
+    transform: rotate(180deg);
+  }
+  
+  @media (max-width: 992px) {
+    .hs3-grid {
+      grid-template-columns: 1fr;
+    }
+    .hs3-media {
+      height: 220px;
+    }
+  }
+  
+  

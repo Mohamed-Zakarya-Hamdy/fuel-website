@@ -1,11 +1,11 @@
 import React from 'react';
 import './Hero.css';
-import Navbar from '../Footer/Navbar/Navbar';
+import Navbar1 from '../../Navbar1/Navbar1';
 
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <Navbar />
+      <Navbar1 />
       
       <div className="content-wrapper">
         <div className="left-section">

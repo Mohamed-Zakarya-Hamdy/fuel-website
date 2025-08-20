@@ -3,7 +3,7 @@
 .hero-container {
     position: relative;
     min-height: 100vh;
-    background-image: url('../../../public/Rectangle 9633.png');
+    background-image: url('../../../../public/Rectangle 9633.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
