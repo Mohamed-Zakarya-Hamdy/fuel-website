@@ -1,17 +1,17 @@
 import React from "react";
-import Hero from "../components/Financing products/HeroSection/Hero";
+import Hero from "../components/Second Financing products/HeroSection/HeroSection";
 import Footer from "../components/Footer/Footer";
 import Navbar2 from "../components/Navbar2/Navbar2";
-import Features1 from "../components/Financing products/HeroSection/Features1/Features1";
 import Conditions from "../components/Conditions/Conditions";
 import Calculating from "../components/Calculating/Calculating";
+import Features2 from "../components/Second Financing products/Features2/Features2";
 
-function FinancingProducts() {
+function SecondFinancingProducts() {
   return (
     <>
     <Navbar2 />
       <Hero />
-      <Features1 />
+      <Features2 />
       <Conditions />
       <Calculating />
       <Footer />
@@ -19,6 +19,6 @@ function FinancingProducts() {
   );
 }
 
-export default FinancingProducts;
+export default SecondFinancingProducts;
 
 

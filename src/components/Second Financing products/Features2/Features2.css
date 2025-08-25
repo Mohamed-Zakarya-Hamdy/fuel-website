@@ -1,8 +1,8 @@
-.features2 {
+.features1 {
   position: relative;
   width: 100%;
   min-height: 642px;
-  background-image: url('../../../../../public//Rectangle 6244.png');  background-size: cover;
+  background-image: url('../../../../public/image\ 13.png');  background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
@@ -32,9 +32,9 @@
   margin: 0 0 100px;
 }
 
-.features2__grid {
+.features1__grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 

@@ -1,0 +1,76 @@
+.customer-care-section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 48px 16px;
+	box-sizing: border-box;
+}
+
+.customer-care-container {
+	max-width: 1275px; /* matches Figma frame width */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.customer-care-title {
+	margin: 0;
+	color: #2f8359; /* rgb(47,131,89) from Figma */
+	font-family: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 46.8px; /* 120% of 39 */
+	text-align: right;
+}
+
+.customer-care-description {
+	margin: 0;
+	color: #000000;
+	font-family: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 37.2px;
+	text-align: right;
+}
+
+.customer-care-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	background-color: #2f8359; /* matches Figma */
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	padding: 16px 24px;
+	cursor: pointer;
+	width: fit-content;
+}
+
+.customer-care-cta-icon {
+	display: inline-flex;
+	width: 24px;
+	height: 24px;
+}
+
+.customer-care-cta-text {
+	font-family: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	font-weight: 600; /* SemiBold */
+	font-size: 20px;
+	line-height: 24px;
+}
+
+@media (max-width: 1024px) {
+	.customer-care-title { font-size: 32px; line-height: 40px; }
+	.customer-care-description { font-size: 22px; line-height: 32px; }
+	.customer-care-cta { padding: 14px 20px; }
+}
+
+@media (max-width: 640px) {
+	.customer-care-title { font-size: 26px; line-height: 34px; }
+	.customer-care-description { font-size: 18px; line-height: 26px; }
+	.customer-care-cta { gap: 10px; padding: 12px 16px; }
+}
+
+

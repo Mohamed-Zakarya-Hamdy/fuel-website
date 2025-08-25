@@ -1,0 +1,137 @@
+.faq-container {
+  background-color: #EEF7F3;
+  padding: 71px 124px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 895px;
+  direction: rtl;
+}
+
+.faq-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 1192px;
+}
+
+.faq-question {
+  background-color: #FFFFFF;
+  border: 1px solid #CDCDCD;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  min-height: 64px;
+  transition: background-color 0.2s ease;
+}
+
+.question-header:hover {
+  background-color: #f8f9fa;
+}
+
+.question-text {
+  font-family: 'IBM Plex Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C8A57;
+  text-align: right;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.question-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.question-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.faq-question.open .question-icon {
+  transform: rotate(180deg);
+}
+
+.question-answer {
+  padding: 0 20px 20px 20px;
+  font-family: 'IBM Plex Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C8A57;
+  text-align: right;
+  border-top: 1px solid #CDCDCD;
+  margin-top: 0;
+  padding-top: 20px;
+  background-color: #f8f9fa;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 200px;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .faq-container {
+    padding: 50px 60px;
+  }
+  
+  .faq-questions {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 40px 20px;
+  }
+  
+  .question-header {
+    padding: 16px;
+    min-height: 56px;
+  }
+  
+  .question-text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 16px;
+  }
+  
+  .question-answer {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 16px 16px 16px;
+    padding-top: 16px;
+  }
+}

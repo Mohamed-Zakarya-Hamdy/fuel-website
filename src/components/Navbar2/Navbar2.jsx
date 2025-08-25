@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar2.css";
+import { Link } from "react-router-dom";
 
 function Navbar2() {
 	return (
@@ -11,10 +12,10 @@ function Navbar2() {
 					</a>
 					<nav className="nb-links" aria-label="روابط">
 						<a className="nb-link" href="#">عن فيول</a>
-						<a className="nb-link" href="#">المنتجات التمويلية</a>
-						<a className="nb-link" href="#">حاسبة التمويل</a>
-						<a className="nb-link" href="#">حماية العملاء</a>
-						<a className="nb-link" href="#">تواصل معنا</a>
+						<Link className="nb-link" to="/financing-products">المنتجات التمويلية</Link>
+						<Link className="nb-link" to="/second-financing-products">حاسبة التمويل</Link>
+						<Link className="nb-link" to="/faq">حماية العملاء</Link>
+						<Link className="nb-link" to="customer-care">تواصل معنا</Link>
 						<a className="nb-link" href="#">الشراكات</a>
 					</nav>
 					<div className="nb-actions">

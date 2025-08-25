@@ -1,0 +1,166 @@
+.calculating-container {
+  width: 100%;
+  background-color: #FCFCFD;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculating-content {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  gap: 498px;
+}
+
+.calculating-left {
+  display: flex;
+  align-items: center;
+}
+
+.request-financing-btn {
+  background: transparent;
+  border: 1px solid #2F8359;
+  border-radius: 4px;
+  padding: 14px 36px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.request-financing-btn:hover {
+  background-color: #2F8359;
+}
+
+.request-financing-btn:hover .btn-text {
+  color: white;
+}
+
+.btn-text {
+  color: #2F8359;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 19.2px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.calculating-right {
+  display: flex;
+  align-items: center;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-title {
+  color: #000000;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 46.8px;
+  text-align: right;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.calculator-icon {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #36A068;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.calculator-icon img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .calculating-content {
+    gap: 200px;
+    padding: 0 20px;
+  }
+  
+  .main-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .calculating-content {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .calculating-left,
+  .calculating-right {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .title-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .main-title {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+  
+  .request-financing-btn {
+    padding: 14px 28px;
+  }
+  
+  .btn-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculating-container {
+    padding: 40px 0;
+  }
+  
+  .calculating-content {
+    padding: 0 15px;
+  }
+  
+  .main-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  
+  .calculator-icon {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .calculator-icon svg {
+    width: 36px;
+    height: 36px;
+  }
+}

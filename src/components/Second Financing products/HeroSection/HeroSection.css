@@ -1,0 +1,94 @@
+.financing-hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background: #ffffff;
+  }
+  
+  .financing-hero__container {
+    width: min(1112px, 92%);
+    display: grid;
+    grid-template-columns: 1fr 370px;
+    grid-template-areas: "content image";
+    gap: 98px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .financing-hero__content {
+    text-align: right;
+    grid-area: content;
+  }
+  
+  .financing-hero__title {
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 120%;
+    margin: 0 0 94px;
+    color: #000000;
+  }
+  
+  .financing-hero__subtitle {
+    font-family: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans Arabic", sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 46.8px;
+    margin: 0 0 16px;
+    color: #000000;
+  }
+  
+  .financing-hero__description {
+    font-family: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 37.2px;
+    margin: 0;
+    color: #000000;
+    text-align: justify;
+  }
+  
+  .financing-hero__image-wrapper {
+    display: flex;
+    justify-content: center;
+    grid-area: image;
+  }
+  
+  .financing-hero__image {
+    width: 369.488px;
+    height: 353px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 1024px) {
+    .financing-hero__container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "image"
+        "content";
+    }
+  
+    .financing-hero__image-wrapper {
+      margin-bottom: 24px;
+    }
+  
+    .financing-hero__title {
+      font-size: 44px;
+      line-height: 1.2;
+    }
+  
+    .financing-hero__subtitle {
+      font-size: 28px;
+      line-height: 1.3;
+    }
+  
+    .financing-hero__description {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+  }
+  
+  
+  
