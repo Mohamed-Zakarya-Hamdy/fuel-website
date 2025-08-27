@@ -12,12 +12,12 @@ function Navbar1() {
 					</Link>
 					<nav className="nb-links" aria-label="روابط">
 						<a className="nb-link" href="#">عن فيول</a>
-						
+					
 						<Link className="nb-link" to="/financing-products">المنتجات التمويلية</Link>
 						<Link className="nb-link" to="/second-financing-products">حاسبة التمويل</Link>
 						<Link className="nb-link" to="/faq">حماية العملاء</Link>
 						<Link className="nb-link" to="customer-care">تواصل معنا</Link>
-						<a className="nb-link" href="#">الشراكات</a>
+						<Link className="nb-link" to="/sharia-committee">الشراكات</Link>
 					</nav>
 					<div className="nb-actions">
 						

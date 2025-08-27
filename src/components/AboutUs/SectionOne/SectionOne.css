@@ -1,0 +1,38 @@
+.aboutus-section-one{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+}
+
+.aboutus-section-one .content-container{
+	width:100%;
+	max-width:1390px;
+    min-height:504px;
+  
+	padding:150px 0px;
+	box-sizing:border-box;
+}
+
+.aboutus-section-one .title{
+	color:#2F8359;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:39px;
+	line-height:46.8px;
+	margin:0 0 20px 0;
+	text-align:right;
+}
+
+.aboutus-section-one .description{
+	color:#000;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:31px;
+	line-height:37.2px;
+	margin:0;
+	text-align:right;
+	max-width:1352px;
+}
+
+

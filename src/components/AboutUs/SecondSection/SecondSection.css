@@ -1,0 +1,83 @@
+.aboutus-second{
+	background:#E9F4EF;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+}
+
+.aboutus-second__container{
+	width:100%;
+	max-width:1440px;
+	padding:60px 38px;
+	box-sizing:border-box;
+}
+
+.group-block{
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	margin-bottom:80px;
+}
+
+.group-title{
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:31px;
+	line-height:37.2px;
+	margin:0;
+	text-align:right;
+}
+
+.cards-row{
+	display:flex;
+	gap:32px;
+	justify-content:space-between;
+}
+
+.member-card{
+	position:relative;
+	width:316px;
+	height:368px;
+	border-radius:8px 8px 0 0;
+	overflow:hidden;
+	background:#2C8257;
+}
+
+.member-image img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.member-overlay{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:74px;
+	background:#2C8257;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	gap:0;
+}
+
+.member-name{
+	color:#FFF;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:20px;
+	line-height:24px;
+}
+
+.member-role{
+	color:#FFF;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:16px;
+	line-height:19.2px;
+}
+
+

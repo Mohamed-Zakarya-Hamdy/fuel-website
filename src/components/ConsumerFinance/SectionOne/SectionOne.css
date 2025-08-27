@@ -1,0 +1,43 @@
+.consumer-section-one{
+	background:#ffffff;
+	width:100%;
+	min-height:504px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	box-sizing:border-box;
+}
+
+.consumer-section-one .content-container{
+	width:100%;
+	max-width:1267px;
+	padding:12px 4px;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	gap:40px;
+	box-sizing:border-box;
+}
+
+.consumer-section-one .title{
+	color:#2F8359;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:39px;
+	line-height:46.8px;
+	margin:0;
+	text-align:right;
+}
+
+.consumer-section-one .description{
+	color:#000;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:31px;
+	line-height:37.2px;
+	margin:0;
+	text-align:right;
+	max-width:1352px;
+}
+
+

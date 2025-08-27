@@ -1,0 +1,72 @@
+.sharia-section-one{
+	background:#E9F4EF;
+	width:100%;
+	min-height:504px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	box-sizing:border-box;
+}
+
+.sharia-section-one .content-container{
+	width:100%;
+	max-width:1267px;
+	padding:12px 4px;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	gap:40px;
+	box-sizing:border-box;
+}
+
+.sharia-section-one .title{
+	color:#2F8359;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+	font-weight:700;
+	font-size:39px;
+	line-height:46.8px;
+	margin:0;
+	text-align:right;
+}
+
+.sharia-section-one .description{
+	color:#000;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:31px;
+	line-height:37.2px;
+	margin:0;
+	text-align:right;
+}
+
+.sharia-section-one .cta{
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	gap:12px;
+	padding:16px 24px;
+	background:#2F8359;
+	color:#FFF;
+	border-radius:4px;
+	text-decoration:none;
+	width:max-content;
+}
+
+.sharia-section-one .cta .cta-text{
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:600;
+	font-size:20px;
+	line-height:24px;
+}
+
+.sharia-section-one .cta .icon{
+	display:inline-flex;
+	width:24px;
+	height:24px;
+}
+
+@media (max-width: 1280px){
+	.sharia-section-one .content-container{padding-left:16px;padding-right:16px;}
+}
+
+

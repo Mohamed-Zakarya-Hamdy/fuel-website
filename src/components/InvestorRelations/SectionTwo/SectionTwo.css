@@ -1,0 +1,68 @@
+.ir-sec2{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+}
+
+.ir-sec2__container{
+	width:100%;
+	max-width:1360px;
+	padding:12px 0;
+	box-sizing:border-box;
+}
+
+.ir-sec2__header{
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:600;
+	font-size:31px;
+	line-height:120%;
+	letter-spacing:0;
+	margin:50px 0 50px 0;
+	text-align:right;
+}
+
+.ir-sec2__rect{
+	background:#F4F4FC;
+	border-radius:8px;
+	width:100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+	min-height:256px;
+	padding:160px 56px;
+	box-sizing:border-box;
+    margin-bottom: 50px;
+}
+
+.ir-sec2__row{
+	display:flex;
+	gap:28px;
+	justify-content:space-between;
+}
+
+.ir-sec2__card{
+	background:#FFF;
+	border:1px solid #CDCDCD;
+	box-shadow:0 4px 10px rgba(0,0,0,0.08);
+	border-radius:8px;
+	padding:24px 20px;
+	flex:1 1 0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.ir-sec2__icons{display:flex;align-items:center;gap:4px}
+
+.ir-sec2__text{
+	color:#6739FF;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:600;
+	font-size:20px;
+	line-height:24px;
+}
+
+.icon-doc,.icon-arrow{display:inline-block;width:24px;height:24px}
+
+
