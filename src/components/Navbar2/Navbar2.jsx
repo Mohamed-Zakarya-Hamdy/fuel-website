@@ -20,9 +20,9 @@ function Navbar2() {
 					</nav>
 					<div className="nb-actions">
 						
-						<a href="#" className="nb-button nb-button--outline">
+					<Link to="/login" className="nb-button nb-button--outline">
 							تسجيل الدخول
-						</a>
+						</Link>
 
 						<span className="nb-lang" style={{ color: "#369A68" }}>
 							<svg className="nb-lang-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>

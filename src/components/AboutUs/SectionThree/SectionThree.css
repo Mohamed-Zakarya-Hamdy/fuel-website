@@ -1,0 +1,61 @@
+.aboutus-section-three{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+    min-height:504px;
+    align-items: center;
+}
+
+.section-three__container{
+	width:100%;
+    
+	max-width:1357px;
+	box-sizing:border-box;
+}
+
+.cards{
+	display:flex;
+	gap:33px;
+	justify-content:space-between;
+}
+
+.info-card{
+	background:#F4F4FC;
+	border-radius:8px;
+	width:662px;
+	height:251px;
+	padding:24px;
+	box-sizing:border-box;
+}
+
+.info-card__header{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	gap:12px;
+}
+
+.info-card__title{
+	color:#6739FF;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:31px;
+	line-height:37.2px;
+	margin:0;
+}
+
+.info-card__text{
+	color:#6739FF;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:31px;
+	line-height:37.2px;
+	margin:8px 0 0 0;
+	text-align:right;
+}
+
+.icon-stroke{display:block}
+.icon-img{display:block;width:40px;height:auto}
+
+

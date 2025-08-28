@@ -1,0 +1,71 @@
+.prices-sec-one{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+    
+}
+
+.prices-sec-one__container{
+	width:100%;
+	max-width:1440px;
+	padding:40px;
+	box-sizing:border-box;
+}
+
+.page-title{
+	color:#000;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:39px;
+	line-height:46.8px;
+	margin:0 0 20px 0;
+	text-align:right;
+}
+
+.apr-block{
+	background:#E9F4EF;
+	border-radius:0;
+	width:100%;
+	padding:40px;
+	box-sizing:border-box;
+}
+
+.apr-inner{
+	width:100%;
+	max-width:1360px;
+	box-sizing:border-box;
+}
+
+.apr-title{
+	color:#2F8359;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:700;
+	font-size:39px;
+	line-height:46.8px;
+	margin:0 0 20px 0;
+	text-align:right;
+}
+
+.apr-desc{
+	color:#000;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:31px;
+	line-height:37.2px;
+	margin:0;
+	text-align:right;
+	max-width:1352px;
+}
+
+.apr-footnote{
+	color:#000;
+	font-family:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans";
+	font-weight:400;
+	font-size:25px;
+	line-height:30px;
+	margin:20px 0 0 0;
+	text-align:right;
+}
+
+
